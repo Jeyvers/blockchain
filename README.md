@@ -12,7 +12,7 @@ The Oracle Problem: smart contract agreements needing real world data
 
 - on chain plus off chain contracts (hybrid)
 
-### THE PURPOSE AND VALUE OF SMART CONTRACTS
+# THE PURPOSE AND VALUE OF SMART CONTRACTS
 
 Basic First Step: What is a smart contract.
 
@@ -32,3 +32,33 @@ Basic First Step: What is a smart contract.
 - Nodes as a minor or validator get paid for processing transactions.
 - Total amount of gas used = gas used \* gas price
 - The more people are sending a transaction at the same time, the more expensive it'll be.
+
+# HOW DO BLOCKCHAINS WORK?
+
+#### HASH
+
+A hasH is a unique fixed length string to identify a piece of data.
+
+- HASHES: SHA256 Hash (understand this)
+  I do not get the concept of mines - why must it start with 4 zeros? Why was it a problem?
+- He said miners have to solve problems
+
+Genesis block: the first block in a blockchain where the previous has points to a has that doesn't actually exist. 000000000000000
+
+- So a blockchain is hashed with the previous block?
+
+#### MINING
+
+- The process of finding the solution to a blockchain's "problem". e.g finding a hash that starts with four zeros. Nodes get paid for mining blocks.
+
+#### NONCE
+
+- Nonce is there to solve the equation. so they have to look for the numbers in the nonces that make the hash start with 4 zeros. as such, the hash changes when there's a change
+
+#### BLOCK
+
+A block is a list of transactions mined together to create a unique hash for a block
+
+#### [DECENTRALIZED BLOCKCHAIN]
+
+- so there are many block chains and many people have different copies of the exact same copy so if one node changes something in their chain, their hash will no longer match everyone else's hash which makes it wrong. Right?
