@@ -62,3 +62,12 @@ A block is a list of transactions mined together to create a unique hash for a b
 #### [DECENTRALIZED BLOCKCHAIN]
 
 - so there are many block chains and many people have different copies of the exact same copy so if one node changes something in their chain, their hash will no longer match everyone else's hash which makes it wrong. Right?
+
+# SIGNING TRANSACTIONS
+
+## public and private key
+
+- private keys are linked to the public keys. the world can see the public keys and verify your private key's transactions through it because they're linked bu they can't see the public key
+- message signatures are generated using a private key
+- the public key is derived from your private key
+  Secret Phrase (all accounts) > Private key (single account) > Public Key > Address
