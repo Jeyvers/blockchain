@@ -121,4 +121,10 @@ It has two pieces:
 1. Sybil attacks (see above explanation)
 2. 51% attack (the bigger a blockchain is, the more decentralized it becomes)
 
-## LAYER 1s, LAYER 2s, & ROLL-UPS
+## BRIEF INTRO LAYER 1s, LAYER 2s, & ROLL-UPS
+
+- layer 1s refer to any base layer blockchain implementation (bitcoin, ethereum, avalanche)
+- any application that's added on top of a layer one (chainlink, arbitrum, optimism )
+- arbitrum and optimism are also called rollups because they aim to solve the scalability issue (which scalability issue? - the scalability issue is that there is not always enough block space for the amount of transactions that want to get in them - this leads to very high gas prices)
+- sidechains?
+- charters?
