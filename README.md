@@ -71,3 +71,9 @@ A block is a list of transactions mined together to create a unique hash for a b
 - message signatures are generated using a private key
 - the public key is derived from your private key
   Secret Phrase (all accounts) > Private key (single account) > Public Key > Address
+
+# GAS MORE
+
+- the more people use a chain the more expensive it is to send transactions
+- you can set a limit to your gas
+- base (minimum) - max (maximum) - priority (max price + max tip)
