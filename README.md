@@ -72,7 +72,7 @@ A block is a list of transactions mined together to create a unique hash for a b
 - the public key is derived from your private key
   Secret Phrase (all accounts) > Private key (single account) > Public Key > Address
 
-# GAS MORE
+# GAS IN DEPTH
 
 - the more people use a chain the more expensive it is to send transactions
 - you can set a limit to your gas
