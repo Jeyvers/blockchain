@@ -77,3 +77,48 @@ A block is a list of transactions mined together to create a unique hash for a b
 - the more people use a chain the more expensive it is to send transactions
 - you can set a limit to your gas
 - base (minimum) - max (maximum) - priority (max price + max tip)
+
+# BLOCKCHAIN OVERVIEW
+
+a. each blockchain has slightly different algorithms
+b. but the same concepts (decentralize, hashing, etc)
+c. blockchain has so many independent nodes (majority rules in blockchain)
+d. blockchain nodes nodes are paid using transaction fee and block reward
+
+## CONSENSUS (PROOF OF WORK, PROOF OF STAKE)
+
+Consensus is defined as the mechanism used to reach an agreement on the state or a single value on the blockchain
+
+It has two pieces:
+
+### a chain selection algorithm
+
+### a sybil resistance mechanism
+
+- ethereum moved from proof of work to a proof of stake algorithm as of September 2022
+- Sybil resistance is a blockchain's ability to defend against users creating a large number of pseudo anonymous identities to gain a disproportionately advantageous influence over said system
+  (against fake blockchains to gain more rewards)
+
+  #### proof of work
+
+  - a single node has to go through a very computationally expensive process called mining to solve the issue the block chain's riddle
+  - a verifiable way to figure out who the block author is
+    > you need to combine this with a chain selection rule
+    > Bitcoin's consensus algorithm is the Nakamoto consensus algorithm which includes the combination of the longest chain rule (their chain selection rule), proof of work, and sybil resistance
+    ```diff
+    + proof of work and stake are usually a part of a consensus algorithm not just the consensus algorithm
+    ```
+  - proof of work uses a lot of energy because every node is working as fast as they can to solve an issue
+
+  #### proof of stake
+
+  - the miners here are called validators because they validate other nodes. they have to put in some stake (some money) as a promise that they will not misbehave in the network.
+  - it is a great sybil resistance mechanism
+  - it uses a lot less energy
+
+### attacks
+
+1. Sybil attacks (see above explanation)
+2. 51% attack (the bigger a blockchain is, the more decentralized it becomes)
+
+## LAYER 1s, LAYER 2s, & ROLL-UPS
