@@ -40,3 +40,26 @@ e.g chainlink (oracle network off chain and on chain data). l2 chain or rollups 
 ## sequences (a type of operator)
 
 (the one that orders and bundles the transaction) in some rollups this sequencer is centralized (which causes a problem)
+
+## rollups stages
+
+- a stage of a rollup is a categorization framework based on vitaliz proposed milestones. an opinionated assessment on the maturity of a rollup
+  by the l2 beat team.
+- it's done to create an incentive for projects to work towards decentralization
+- three stages
+
+### stage zero (full training wheels)
+
+- operator and security council manage the rollup (centralized)
+- open source data for availability to enable verification
+- less than seven days to exit the system
+
+### stage one
+
+- rollup is starting to be governed by L1s
+- decentralized proof system
+- users can exit without coordination
+
+### stage two (no training wheels)
+
+- users are now protected against governance
