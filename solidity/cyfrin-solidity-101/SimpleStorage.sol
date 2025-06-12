@@ -12,7 +12,10 @@ contract SimpleStorage {
         uint256 favoriteNumber;
     }
 
-    Person public Jeyi = Person("Jeyi", 8);
+    // Person public Jeyi = Person("Jeyi", 8);
+    // static array example Person[3] - can have a max of 3 values
+    // below a dynamic array (unknown number of people)
+    Person[] public listOfPeople;
 
     // this will be responsible for updating our myFavoriteNumber
     function store(uint256 favoriteNumber) public {
@@ -23,6 +26,11 @@ contract SimpleStorage {
     // pure functions disallow reading of state
     function retrieve() public view returns(uint256) {
         return myFavoriteNumber;
+    }
+
+
+    function addPerson(string memory _name, uint256 _favoriteNumber) public {
+        listOfPeople.push(Person(_name, _favoriteNumber));
     }
 }
 
