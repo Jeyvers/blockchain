@@ -63,3 +63,19 @@ e.g chainlink (oracle network off chain and on chain data). l2 chain or rollups 
 ### stage two (no training wheels)
 
 - users are now protected against governance
+
+# first transaction on zksync
+
+## bridging
+
+bridging means taking funds from one chain to another
+using mechanisms
+
+1. locking and unlocking
+   locked in the source chain and unlocked in the destination chain
+
+2. minting and burning
+   on the source chain, the tokens are burned on hte source chain, then minted in the destination chain
+
+## finality
+time it takes from sending transaction to the time the transaction is settled
