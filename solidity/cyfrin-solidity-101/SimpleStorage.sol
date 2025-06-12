@@ -10,6 +10,12 @@ contract SimpleStorage {
     function store(uint256 _favoriteNumber) public {
         favoriteNumber = _favoriteNumber;
     }
+
+    // view functions disallow updating of state, 
+    // pure functions disallow reading of state
+    function retrieve() public view returns(uint256) {
+        return favoriteNumber;
+    }
 }
 
-// 0xd9145CCE52D386f254917e481eB44e9943F39138
+// REMEMBER: everytime you update the store of the blockchain, it costs gas
