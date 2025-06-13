@@ -28,7 +28,7 @@ contract SimpleStorage {
         return myFavoriteNumber;
     }
 
-
+    // In Remix, "not payable" signifies a function within a smart contract that cannot accept Ether (or other cryptocurrency) as part of a transaction. These functions can still modify the contract's state, but they won't be able to receive any value sent with the transaction. If you try to send value to a non-payable function, the transaction will revert 
     function addPerson(string memory _name, uint256 _favoriteNumber) public {
         listOfPeople.push(Person(_name, _favoriteNumber));
     }
